@@ -4,10 +4,10 @@ Propomos o desenvolvimento de 4 projetos com a finalidade de demonstrar os conhe
 Utilizamos modelos de negócio reais para buscar soluções praticas utilizando a linguagem Python como ferramenta principal. 
 Cada projeto contara com tema e fonte de dados independentes, sendo eles:
 
-1. Processamento de imagem
-2. Processamento de Audio
-3. Analise de logs
-4. Trabalhando com Datasets em um ETL
+1. Processamento de imagem;
+2. Processamento de Audio;
+3. Analise de logs;
+4. Tratamento, Limpeza e Análise de Dados.
 
 ## DESENVOLVIDO POR:
 - Andre Rizzo
