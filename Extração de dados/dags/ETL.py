@@ -22,13 +22,13 @@ dag = DAG(
 # Definindo as tarefas
 extract_task = BashOperator(
     task_id='extrair_dados',
-    bash_command='~/extract.py',
+    bash_command='./extract.py',
     dag=dag,
 )
 
 transform_task = BashOperator(
     task_id='transformar_dados',
-    bash_command='~/transform.py',
+    bash_command='./dags/transform.py',
     dag=dag,
     schedule_interval=timedelta(days=1),  # Executar uma vez por dia
 )
